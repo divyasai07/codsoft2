@@ -1,0 +1,422 @@
+body {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+}
+.section {
+  height: 90vh;
+  width: 93%;
+  margin: 40px 70px 30px 50px;
+  background-color: black;
+  border: 5px solid;
+  border-color: rgb(228, 16, 16);
+}
+.header {
+  width: 94%;
+  height: 10%;
+  margin: 30px 30px 0 30px;
+  background-color: black;
+  color: white;
+}
+.img {
+  width: 50%;
+  height: 70%;
+  position: absolute;
+  margin: 50px 40px 0px 530px;
+}
+h1 {
+  position: absolute;
+  margin: 0px 0px 0px 10px;
+}
+.nav {
+  margin: 0px 0px 20px 500px;
+}
+li {
+  float: left;
+}
+li a {
+  display: inline-block;
+  text-align: center;
+  padding: 14px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+ul {
+  margin: 0px;
+  overflow: hidden;
+  list-style-type: none;
+  position: absolute;
+}
+#section1 {
+  background-color: black;
+}
+#p1 {
+  color: rgb(228, 16, 16);
+}
+.heading {
+  color: white;
+  width: 290px;
+  word-wrap: break-word;
+  margin: 140px 0px 0px 60px;
+  font-size: 50px;
+}
+.subheading {
+  margin: 5px;
+  font-size: 40px;
+  font-weight: 700;
+}
+.action {
+  margin-left: 60px;
+}
+button {
+  margin: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-color: rgb(228, 16, 16);
+  border-radius: 20px;
+  width: 90px;
+  padding: 10px;
+  background-color: rgb(231, 17, 17);
+}
+.pic {
+  margin: 150px 10px 0px 120px;
+}
+#p3 {
+  color: rgb(228, 16, 16);
+  padding-left: 80px;
+  font-size: 50px;
+  font-weight: bolder;
+}
+p {
+  margin: 20px;
+  width: 400px;
+  word-wrap: break-word;
+  color: white;
+  font-size: 30px;
+}
+.ed {
+  display: flex;
+  column-gap: 100px;
+}
+ul.info {
+  color: white;
+  padding: 40px;
+}
+li.li {
+  margin-bottom: 5px;
+  float: none;
+}
+.about {
+  display: flex;
+  column-gap: 250px;
+}
+h1.h1 {
+  color: rgb(228, 16, 16);
+  margin: 10px 10px 30px 50px;
+}
+div.h1 {
+  color: white;
+  margin: 130px 10px 20px 20px;
+}
+.contain {
+  height: 30vh;
+  width: 93%;
+  margin: 20px 0 0 20px;
+  padding-top: 70px;
+  box-sizing: border-box;
+}
+h2.h2 {
+  padding-top: 20px;
+  margin: 20px 0 0px 20px;
+}
+.contain h2 {
+  margin-top: 10px;
+  color: white;
+  height: 5%;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+#skill {
+  font-size: 40px;
+  color: white;
+  padding-left: 70px;
+  padding-bottom: 70px;
+}
+.progressbar {
+  margin: 15px 0px 0px 10px;
+  background-color: white;
+  height: 20px;
+  width: 350px;
+  border: 3px solid;
+  border-radius: 30px;
+}
+.progressbar div {
+  height: 20px;
+  background: rgb(228, 16, 16);
+  width: 0%;
+  border-radius: 30px;
+}
+.progressbar div span {
+  height: 30px;
+  width: 30px;
+  background: #fff;
+  float: right;
+  color: #0b0b0c;
+  margin-top: -5px;
+  margin-right: -20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.html {
+  background: rgb(228, 16, 16);
+  animation: html 5s linear 3s 1 forwards;
+}
+.css {
+  background: rgb(228, 16, 16);
+  animation: css 5s linear 3s 1 forwards;
+}
+.c {
+  background: rgb(228, 16, 16);
+  animation: c 5s linear 3s 1 forwards;
+}
+.java {
+  background: rgb(228, 16, 16);
+  animation: java 5s linear 3s 1 forwards;
+}
+.javascript {
+  background: rgb(228, 16, 16);
+  animation: javascript 5s linear 3s 1 forwards;
+}
+@keyframes html {
+  100% {
+    width: 80%;
+  }
+}
+@keyframes css {
+  100% {
+    width: 70%;
+  }
+}
+@keyframes c {
+  100% {
+    width: 80%;
+  }
+}
+@keyframes java {
+  100% {
+    width: 50%;
+  }
+}
+@keyframes javascript {
+  100% {
+    width: 40%;
+  }
+}
+.skills {
+  display: flex;
+  column-gap: 10px;
+}
+.photo {
+  margin: 100px;
+}
+h1.pro {
+  margin: 40px 0 0 510px;
+  color: white;
+  font-size: 40px;
+}
+.pro2 {
+  width: 50%;
+  position: relative;
+}
+.pro1 {
+  width: 50%;
+  position: relative;
+}
+.pro3 {
+  width: 50%;
+  position: relative;
+}
+
+.images {
+  width: 90%;
+  opacity: 1;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.page1 {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.pro1:hover .images {
+  opacity: 0.3;
+}
+.pro1:hover .page1 {
+  opacity: 1;
+}
+.pro2:hover .images {
+  opacity: 0.3;
+}
+.pro2:hover .page1 {
+  opacity: 1;
+}
+.pro3:hover .images {
+  opacity: 0.3;
+}
+.pro3:hover .page1 {
+  opacity: 1;
+}
+.text {
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  padding: 16px 32px;
+}
+.projects {
+  display: flex;
+  justify-content: center;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-top: 130px;
+}
+.github {
+  display: flex;
+  justify-content: center;
+  column-gap: 300px;
+}
+.git a {
+  text-decoration: none;
+  color: white;
+}
+.git {
+  width: 80px;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  border: 3px solid;
+  border-radius: 30px;
+  font-size: 20px;
+  padding: 10px;
+  background-color: rgb(228, 16, 16);
+  border-color: rgb(228, 16, 16);
+}
+.git:hover {
+  animation: git 1s linear 1 backwards;
+}
+@keyframes git {
+  0% {
+    width: 4%;
+  }
+}
+h1.h {
+  color: white;
+  font-size: 50px;
+  padding-left: 40px;
+}
+
+.info1 {
+  margin-left: 70px;
+  margin-top: 70px;
+  height: 80%;
+}
+.info1 p {
+  padding: 10px 0 0 10px;
+}
+/*.email {
+  padding-top: 50p;
+  color: white;
+  font-size: 20px;
+  height: 60%;
+}
+.phone {
+  color: white;
+  padding-top: 50px;
+}*/
+ul.ul1 {
+  padding-left: 10px;
+}
+
+img.img1 {
+  display: flex;
+  padding: 40px 0 0 30px;
+}
+li.li1 {
+  display: flex;
+  column-gap: 20px;
+}
+p.p {
+  margin-top: 10px;
+  padding-top: 100px;
+}
+span.resume {
+  margin: 30px;
+}
+.resume {
+  margin: 220px 0 0 20px;
+  width: 110px;
+  padding: 10px;
+  height: 30%;
+  color: black;
+  background-color: white;
+  border: 1px solid;
+  border-color: rgb(156, 59, 59);
+  text-align: center;
+  border-radius: 20px;
+  font-weight: bold;
+}
+div.information {
+  padding-top: 70px;
+}
+input {
+  text-align: center;
+  height: 40px;
+  box-sizing: border-box;
+}
+textarea {
+  text-align: center;
+}
+.submit {
+  padding-left: 120px;
+}
+button.submit1 {
+  margin: 5px 5px 0 2px;
+  text-align: center;
+  border: 3px solid;
+  border-color: white;
+  border-radius: 20px;
+  width: 90px;
+  padding: 5px;
+  background-color: white;
+}
+.submit1:hover {
+  background-color: #e41010;
+}
+
+li.li2 {
+  float: none;
+  padding-top: 20px;
+}
+div.contact {
+  display: flex;
+
+  column-gap: 200px;
+}
